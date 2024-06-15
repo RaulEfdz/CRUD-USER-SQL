@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import App from './App'
+import App from './App.tsx'
 
 import './index.css'
-import Login from './components/Login'
-import Register from './components/Register'
-import Home from './components/Home'
+import Login from './components/Login.tsx'
+import Register from './components/Register.tsx'
+import Home from './components/Home.tsx'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('root')as Element).render(
   <React.StrictMode>
     <Router>
       <Routes>
